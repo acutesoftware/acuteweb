@@ -1,0 +1,44 @@
+This is a page with useful design links:
+
+Learning Design - Uni Courses
+http://ocw.mit.edu/courses/#media-arts-and-sciences (MIT)
+
+Photoshop Tutorials
+http://psd.tutsplus.com/
+
+
+General Design Job links
+http://www.turbosquid.com/FullPreview/Index.cfm/ID/547785  
+Turbo Squid - website to sell 3d rendered models
+
+CSS Layouts 
+ http://www.maxdesign.com.au/articles/css-layouts/ 
+
+
+Web design links
+http://webdesignledger.com/resources/design-business-books-vs-design-business-blogs
+
+Web Design Ledger is a blog written by web designers for web designers.  We concentrate on sharing knowledge, inspiration, and information about or related to web design.  At WDL you'll find awesome free downloads, resources, tools, tips, tutorials and a healthy dose of inspiration.  Below are some helpful business articles we've published within the last several months.
+9 Tools For Managing Your Freelance Design Business
+Legal Guidelines for Freelance Web Designers
+How to Build the Perfect Web Community
+The Business Side of Design
+ 
+Pros and Cons of Different Website Navigation styles
+http://www.smashingmagazine.com/2011/06/06/planning-and-implementing-website-navigation/
+
+http://webdesignledger.com/tools/15-useful-web-apps-for-designers
+
+Articles on Tabbed browsing
+http://blixt.org/articles/tabbed-navigation-using-css#section=introduction
+http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/
+http://www.alvit.de/css-showcase/css-navigation-techniques-showcase.php
+
+Articles on Web business
+http://www.comentum.com/guide-to-web-application-development.html
+
+
+Interesting Reddit Links on Web design 
+http://www.reddit.com/r/webdesign/comments/q1hsl/want_to_start_a_career_in_web_design_i_have_no/
+
+

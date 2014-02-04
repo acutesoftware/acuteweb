@@ -1,0 +1,136 @@
+
+
+/*'--------------------------
+DESIGN 2 = BOLD
+-----------------------------*/
+
+
+body {
+	text-align: center;
+	background-color: #FF9900;
+	color: #353636; 
+  font-family: "Helvetica Neue", Helvetica, sans-serif ;
+  }
+
+#container {
+  margin: 0 auto;
+  width: 630px;
+  text-align: left;
+  color: #353636; 
+  align: center; 
+  }
+
+#logo
+{
+   background: #fff;
+   padding: 0px;
+   position   :absolute;
+   top: 100px;
+   left: -350px;
+   border: 0;
+   
+}
+
+#header
+{
+   padding: 0px;
+   font-size: 260%; 
+width:100%;
+font-family: "Helvetica Neue", Helvetica,  sans-serif;
+text-decoration: none; 
+   position   :absolute;
+   top: 40px;
+   left: 0px;
+   height: 120px; 
+   text-align: center; 
+letter-spacing:10px;
+font-weight:900;
+}
+
+
+#side-navigation
+{
+  
+   position: relative;
+   top: 90px;
+   left:0px;
+width: 100%; 
+	padding: 3px;
+text-align: center; 
+}
+
+#side-navigation ul
+{
+   margin: 0;
+   padding: 5 5 5 ;
+text-align: center; 
+   list-style: none;
+
+}
+
+#side-navigation ul li
+{
+   list-style-type: none;
+   display: inline;
+   color: #fff;
+   text-decoration: none;
+   text-align: center; 
+   width:100%;
+}
+
+#side-navigation li a
+{
+   display: inline;
+   float: center;
+   padding: 0px 8px 0 ;
+
+}
+
+#side-navigation li a:hover { background: #FF9900; }
+
+#aside
+{
+   width: 0px;
+position: absolute;
+left: -555px; 
+
+}
+
+
+#content
+{
+  position: relative;
+  align: center;
+  top: 120px;
+  left: 0px;
+  width: 100%;
+  height: 480px; 
+  padding: 10px ;
+  margin: 0px 0px 0px 0px;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, sans-serif ;
+  background-color: #F0F0F0;
+  background-color: #FFF8EE; 
+  border-radius: 16px; 
+-moz-border-radius: 16px; 
+-webkit-border-radius: 16px; 
+border: 1px solid #999999;
+
+}
+
+
+
+#footer
+{
+   
+   border: 0px solid #3c3;
+   text-align: left;
+   padding: 10px;
+   font-size: 40%;
+   font-size: smaller;
+   color: grey;
+   
+
+}
+
+

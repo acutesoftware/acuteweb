@@ -1,0 +1,183 @@
+
+
+
+
+/*'--------------------------
+Layout of the web page
+-----------------------------*/
+
+body {
+  text-align: center;
+  font-size: 80%;
+  font-family: arial, helvetica, sans-serif;
+  }
+
+#container {
+  margin: 0 auto;
+  width: 1300px;
+  text-align: left;
+  }
+
+#logo
+{
+   background: #fff;
+   padding: 0px;
+   position   :absolute;
+   top: 20px;
+   left: 35px;
+   
+}
+
+#header
+{
+   background: #fff;
+   padding: 0px;
+   font-size: large; 
+   font-size: 200%;
+
+   position   :absolute;
+   top: 30px;
+   left: 295px;
+
+}
+
+
+#header h1 { margin: 50; }
+
+#top-navigation
+{
+ position   :absolute;
+   top: 50px;
+   left:210px;
+   width: 640px;
+   background: #fff;
+}
+
+#top-navigation ul
+{
+   margin: 0;
+   padding: 0 ;
+}
+
+#top-navigation ul li
+{
+   list-style-type: none;
+   display: inline;
+}
+
+#top-navigation li a
+{
+   display: inline;
+   float: left;
+   padding: 5px 15px;
+   color: #060;
+   text-decoration: none;
+}
+
+#top-navigation li a:hover { background: #383; }
+
+
+#side-navigation
+{
+   position   :absolute;
+   top: 90px;
+   left: 5px;
+   width: 160px;
+   padding: 5px 0px 0px 0px ;
+   margin: 0 0px;
+   display: inline;
+   background: #ccc;
+   background: #fff;
+   border-right: 0px solid #000;
+}
+
+
+#side-navigation  a:hover { background: #383; }
+
+/*
+#side-navigation-selected a:hover { background: #383; }
+
+*/
+
+
+#side-navigation ul
+{
+   list-style: none;
+}
+
+
+
+
+#searchbox
+{
+
+   position   :absolute;
+   top: 460px;
+   left: 10px;
+   width: 160px;
+   padding: 5px 10px 5px 0px ;
+   margin: 0 0px;
+   display: inline;
+   text-indent: 15px;
+   background: #fff;
+   text-decoration: none;
+  }
+
+
+
+
+#content
+{
+   float: left;
+   display: inline;
+
+   position   :absolute;
+   top: 120px;
+   left: 180px;
+   padding: 20px 0;
+   margin: 0px 0px 20px 20px;
+   border: 0px solid #000;
+}
+
+
+
+#content h2 { margin: 0; }
+
+#aside
+{
+   width: 180px;
+   float: right;
+   padding: 0px ;
+  margin: 20px 10px 10px 10px;
+   border: 0px solid #3c3;
+   text-decoration: none;
+   font-size: smaller; 
+
+}
+
+#aside h3 { margin: 0; }
+
+#content-yellowbox
+{
+  width: 150px;
+  float: right;
+  padding: 12px;
+  margin: 0px 10px 10px 10px;
+  background: #FFFFE0;
+  border: 2px solid #000;
+
+}
+
+
+#footer
+{
+   clear: left;
+   background: #fff;
+   border: 0px solid #3c3;
+   text-align: left;
+   padding: 10px;
+   font-size: smaller;
+   color: grey;
+
+}
+
