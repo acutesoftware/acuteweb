@@ -6,26 +6,7 @@
 <link rel="stylesheet" type="text/css" href="acute-mobile.css" media="handheld" /> 
 <link rel="stylesheet" type="text/css" href="acute-screen.css" media="Screen" />
 
-
-
-<!--
-<link rel="stylesheet" type="text/css" href="acute-mobile.css"  />
-
-<link rel="stylesheet"           href="acute-screen.css" type="text/css" media="Screen"   title="default" />
-<link rel="alternate stylesheet" href="acute-mobile.css" type="text/css" media="handheld" title="alternate" /> 
-<script type="text/javascript" src="styleswitcher.js"></script>
--->
-
-
 </HEAD><BODY>
-
-
-<!--
-<a href="#" onclick="setActiveStyleSheet(‘default’); return false;">Screen</a>
-<a href="#" onclick="setActiveStyleSheet(‘alternate’); return false;">Mobile</a>
-
----->
-
 
 <div id="container">
 <!-------- Banner starts here ---------------------------------->
@@ -42,11 +23,17 @@
 
 <div id="side-navigation">
 <UL>
-<LI id="CurrentMenu"><A HREF="index.html">AIKIF Home</a></LI>
+<LI><A HREF="../default.html">Home</a></LI>
+<LI><A HREF="../custom.html">Custom Software</A></LI>
+<LI><A HREF="../design.html">Website Design</A></LI>
+<LI><a href="../cont_products.html">Products</a></LI>
+<LI id="CurrentMenu"><A HREF="index.html">AIKIF</A></LI>
+<UL id="submenu">
 <LI><A HREF="ontology.html">Ontology Review</A></LI>
+</UL>
+<LI><A HREF="../cont_articles.html">Blog</A></LI>
 <LI><A HREF="../about.html">About</A></LI>
 <LI><A HREF=mailto:djmurray@acutesoftware.com.au>Contact</A> </LI>
-
 
 </UL>
 </div>
@@ -66,7 +53,7 @@
 <DIV id="content-yellowbox">
 <h4>Links</h4>
 <a href="https://github.com/acutesoftware/AIKIF">Source Code</a><BR>
-<a href="review_ontology.html">Ontology Review</a><BR>
+<a href="ontology.html">Ontology Review</a><BR>
 
 <BR>
 
@@ -88,6 +75,7 @@ Functions (Octave, Python, SQL) are called at set stages of the AI process which
 This allows you to easily search and compare previous batch runs.<BR>
 <BR>
 
+<img src="AIKIF-Overview.jpg"></img>
 
 <h3>Progress</h3>
 This is very much an experimental work in progress - the source code works (unless stated otherwise in the comments), but the 

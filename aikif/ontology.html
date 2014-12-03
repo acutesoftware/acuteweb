@@ -44,8 +44,15 @@
 
 <div id="side-navigation">
 <UL>
-<LI><A HREF="index.html">AIKIF Home</a></LI>
+<LI><A HREF="../default.html">Home</a></LI>
+<LI><A HREF="../custom.html">Custom Software</A></LI>
+<LI><A HREF="../design.html">Website Design</A></LI>
+<LI><a href="../cont_products.html">Products</a></LI>
+<LI><A HREF="index.html">AIKIF</A></LI>
+<UL id="submenu">
 <LI id="CurrentMenu"><A HREF="ontology.html">Ontology Review</A></LI>
+</UL>
+<LI><A HREF="../cont_articles.html">Blog</A></LI>
 <LI><A HREF="../about.html">About</A></LI>
 <LI><A HREF=mailto:djmurray@acutesoftware.com.au>Contact</A> </LI>
 
@@ -84,11 +91,18 @@ list of upper ontologies with comments/ratings for possible use in AI applicatio
 
 <H2>Ontology Datasets</h2>
 
+
 <B>WordNet</B><BR>page = <a href=http://wordnet.princeton.edu/wordnet/download/>http://wordnet.princeton.edu/wordnet/download/</a><BR>data = <a href=http://wordnetcode.princeton.edu/wn3.1.dict.tar.gz>http://wordnetcode.princeton.edu/wn3.1.dict.tar.gz</a><BR>
 
 Best word list, not in OWL format, though qualifies as an upper ontology by including the most general concepts as well as more specialized concepts, related to each other not only by the subsumption relations, but by other semantic relations as well, such as part-of and cause. However, unlike Cyc, it has not been formally axiomatized so as to make the logical relations between the concepts precise. It has been widely used in Natural language processing research<BR>
 
 <I>Sample file saved to S:\DATA\opendata\ontology\WordNet\dict\data.noun (15,325,523 bytes)<BR>20 files in folder, totalling 37,405,206 bytes</I><BR><BR>
+
+<B>OpenCyc</B><BR>page = <a href=http://en.wikipedia.org/wiki/Cyc#OpenCyc>http://en.wikipedia.org/wiki/Cyc#OpenCyc</a><BR>data = <a href=http://sourceforge.net/projects/texai/files/open-cyc-rdf/1.1/open-cyc.rdf.ZIP/download>http://sourceforge.net/projects/texai/files/open-cyc-rdf/1.1/open-cyc.rdf.ZIP/download</a><BR>
+
+Was proprietry, now open source. Fairly precise, this is the best bet for AI applications<BR>
+
+<I>Sample file saved to S:\DATA\opendata\ontology\OpenCyc\open-cyc.rdf (103,037,985 bytes)<BR>6 files in folder, totalling 343,906,206 bytes</I><BR><BR>
 
 <B>SUMO - Suggested Upper Merged Ontology</B><BR>page = <a href=http://www.ontologyportal.org/>http://www.ontologyportal.org/</a><BR>data = <a href=http://sigmakee.cvs.sourceforge.net/viewvc/sigmakee/KBs/?view=tar>http://sigmakee.cvs.sourceforge.net/viewvc/sigmakee/KBs/?view=tar</a><BR>
 
@@ -148,19 +162,13 @@ provides an extensible ontology for concepts and information in cultural heritag
 
 The current (May 2009) OWL version of COSMO has over 6400 types (OWL classes), over 700 relations, and over 1400 restrictions<BR>
 
-<I>Sample file saved to S:\DATA\opendata\ontology\COSMO\COSMO.owl (10,036,090 bytes)<BR>8 files in folder, totalling 16,186,390 bytes</I><BR><BR>
+<I>Sample file saved to S:\DATA\opendata\ontology\COSMO\COSMO.owl (10,036,090 bytes)<BR>6 files in folder, totalling 16,015,894 bytes</I><BR><BR>
 
 <B>YAMATO - Yet Another More Advanced Top Ontology</B><BR>page = <a href=http://www.ei.sanken.osaka-u.ac.jp/hozo/onto_library/upperOnto.htm>http://www.ei.sanken.osaka-u.ac.jp/hozo/onto_library/upperOnto.htm</a><BR>data = <a href=http://www.ei.sanken.osaka-u.ac.jp/hozo/onto_library/download.php?filename=YAMATO20120714owl.zip>http://www.ei.sanken.osaka-u.ac.jp/hozo/onto_library/download.php?filename=YAMATO20120714owl.zip</a><BR>
 
 complex but very advanced<BR>
 
 <I>Sample file saved to S:\DATA\opendata\ontology\YAMATO\YAMATO20120714.owl (530,486 bytes)<BR>3 files in folder, totalling 1,448,966 bytes</I><BR><BR>
-
-<B>OpenCyc</B><BR>page = <a href=http://en.wikipedia.org/wiki/Cyc#OpenCyc>http://en.wikipedia.org/wiki/Cyc#OpenCyc</a><BR>data = <a href=http://sourceforge.net/projects/texai/files/open-cyc-rdf/1.1/open-cyc.rdf.ZIP/download>http://sourceforge.net/projects/texai/files/open-cyc-rdf/1.1/open-cyc.rdf.ZIP/download</a><BR>
-
-Proprietry but fairly precise<BR>
-
-<I>Sample file saved to S:\DATA\opendata\ontology\OpenCyc\open-cyc.rdf (103,037,985 bytes)<BR>3 files in folder, totalling 248,942,337 bytes</I><BR><BR>
 
 <B>PROTON</B><BR>page = <a href=http://www.ontotext.com/proton-ontology>http://www.ontotext.com/proton-ontology</a><BR>data = <a href=http://www.ontotext.com/sites/default/files/proton/protontop.ttl>http://www.ontotext.com/sites/default/files/proton/protontop.ttl</a><BR>
 
@@ -172,19 +180,19 @@ basic subsumption hierarchy which provides coverage of most of the upper-level c
 
 The most common usage of IDEAS will be in direct exchange of information between architectural modelling tools are repositories<BR>
 
-<I>Sample file saved to S:\DATA\opendata\ontology\IDEAS\IDEAS Foundation v1_0 Released 2009-04-24.xmi (3,073,554 bytes)<BR>3 files in folder, totalling 7,946,504 bytes</I><BR><BR>
+<I>Sample file saved to S:\DATA\opendata\ontology\IDEAS\IDEAS Foundation v1_0 Released 2009-04-24.xmi (3,073,554 bytes)<BR>2 files in folder, totalling 7,319,058 bytes</I><BR><BR>
 
 <B>MarineTLO</B><BR>page = <a href=http://www.ics.forth.gr/isl/MarineTLO/>http://www.ics.forth.gr/isl/MarineTLO/</a><BR>data = <a href=http://www.ics.forth.gr/isl/MarineTLO/v3/core_v3.owl>http://www.ics.forth.gr/isl/MarineTLO/v3/core_v3.owl</a><BR>
 
 MarineTLO is a top-level ontology for the marine domain (also applicable to the terrestrial domain)<BR>
 
-<I>Sample file saved to S:\DATA\opendata\ontology\MarineTLO\core_v3.owl (21,541 bytes)<BR>4 files in folder, totalling 1,844,662 bytes</I><BR><BR>
+<I>Sample file saved to S:\DATA\opendata\ontology\MarineTLO\core_v3.owl (21,541 bytes)<BR>2 files in folder, totalling 49,107 bytes</I><BR><BR>
 
 <B>MindOntology (OpenCog)</B><BR>page = <a href=http://wiki.opencog.org/w/MindOntology>http://wiki.opencog.org/w/MindOntology</a><BR>data = <a href=http://wiki.opencog.org/wikihome/index.php?title=Special:AllPages&namespace=104>http://wiki.opencog.org/wikihome/index.php?title=Special:AllPages&namespace=104</a><BR>
 
-Focussed for AGI use, but no single download found (arranged as wiki pages)<BR>
+Focussed for AGI use, but no single download found (arranged as wiki pages, converted to CSV 27/3/2014)<BR>
 
-<I>Sample file saved to S:\DATA\opendata\ontology\MindOntology\All pages (MindOntology namespace) - OpenCog.htm (29,611 bytes)<BR>1 files in folder, totalling 29,611 bytes</I><BR><BR>
+<I>Sample file saved to S:\DATA\opendata\ontology\MindOntology\mindOntology.csv (306,482 bytes)<BR>1 files in folder, totalling 306,482 bytes</I><BR><BR>
 
 <B>DIY - eg build your own Ontology</B><BR>page = <a href=http://localhost>http://localhost</a><BR>data = <a href=></a><BR>
 
@@ -251,8 +259,6 @@ Descriptive document, not an actual ontology - has a focus on conceptual simplic
 <B>Onto-Med Report Nr. 8</B><BR><a href=http://www.onto-med.de/publications/2010/gfo-basic-principles.pdf>http://www.onto-med.de/publications/2010/gfo-basic-principles.pdf</a><BR>
 
 basic principles of GFO<BR><BR>
-
-
 
 
 <BR><BR><BR><BR><BR>
